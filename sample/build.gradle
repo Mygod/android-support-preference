@@ -39,10 +39,10 @@ repositories {
 }
 
 // For testing compatibility with oldest supported support library.
-configurations.all {
-    resolutionStrategy.eachDependency { DependencyResolveDetails details ->
-        if (details.requested.group == 'com.android.support') {
-            details.useVersion '25.1.0'
-        }
-    }
-}
+//configurations.all {
+//    resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+//        if (details.requested.group == 'com.android.support') {
+//            details.useVersion '25.1.0'
+//        }
+//    }
+//}
